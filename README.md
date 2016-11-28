@@ -60,6 +60,13 @@ Redis in-memory sessions for scaling computing part.
 
 MongoDB with dynamic schemas for more flexible data structures.
 
+## Tools
+
+1. For development get project lombock <https://projectlombok.org/> for your IDE.
+ It is not runtime, but development time dependency.
+2. For UML diagrams (in `\docs` folder) ObjectAid tool <http://objectaid.com/> is used.
+ Note: install only Class Diagram, that is free.
+
 ## Multitenancy
 
 In this demo a field called `organization` (of type `Organization`) is used to separate tenants data.
