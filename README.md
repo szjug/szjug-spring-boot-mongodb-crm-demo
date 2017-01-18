@@ -78,7 +78,7 @@ Other option would be database per tenant. But that would create complexity of m
 
 # Running
 
-1. start local MongoDB and Redis at default ports. Redis starts with --protected-mode no
+1. use Docker to start local MongoDB and Redis at default ports (Redis starts with `--protected-mode no`):
 
 	docker run -p 27017:27017 mongo
 	docker run -p 6379:6379 redis 
